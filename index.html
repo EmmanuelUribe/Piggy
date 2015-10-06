@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link href='https://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.1.min.js" > </script>
+	<meta charset="utf-8">
+
+</head>
+<body>
+<div id="complete">
+<input type="checkbox" id="spoiler1"></input>
+	<label for="spoiler1"><i class="fa fa-navicon" style="color:white"></i></label>
+	<div class="spoiler">
+		<ul class="egmenu">
+  			<li><a href="#"><i class="fa fa-home"></i> Inicio</a></li>
+  			<li><a href="#" class="has-sub"><i class="fa fa-tablet"></i> Aplicaci&oacute;n</a></li>
+  			<li><a href="#"><i class="fa fa-bar-chart"></i> Iniciativa</a></li>
+  			<li><a href="#"><i class="fa fa-at"></i> Contacto</a></li>
+		</ul>
+	</div>
+</div>
+<div id="t1"><h1><span>PIGGY SAVER</span><br>"El camino hacia la riqueza depende fundamentalmente de dos palabras: trabajo y ahorro."</h1><p>Benjamin Franklin</p>
+<div id="cir"> </div>
+</div>
+<div id="und"></div>
+<div id="tr"></div>
+<div id="t2">
+	<p id="tx1">ESTUDIANTES</p>
+	<input type="submit" class="but1" value="Más Información">
+	<div id="f1"></div>
+	<div id="p1"></div>
+	<p id="tx2">PROFESIONISTAS</p>
+	<input type="submit" class="but2" value="Más Información">
+	<div id="f2"></div>
+	<div id="p2"></div>
+	<p id="tx3">FAMILIAS</p>
+	<input type="submit" class="but3" value="Más Información">
+	<div id="f3"></div>
+	<div id="p3"></div>
+	<p id="tx4">TRABAJADORES</p>
+	<input type="submit" class="but4" value="Más Información">
+	<div id="f4"></div>
+	<div id="p4"></div>
+</div>
+
+<script type="text/javascript">
+		$('.has-sub').click( function(e) {
+   		 e.preventDefault();
+    	$(this).parent().toggleClass('tap');
+		});
+	</script>
+</body>
+</html>
